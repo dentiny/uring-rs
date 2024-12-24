@@ -1,0 +1,11 @@
+[package]
+name = "uring-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+io-uring = "0.6"
+
+[[bin]]
+name = "io_uring_multi_read"
+path = "src/io_uring_multi_read.rs"
